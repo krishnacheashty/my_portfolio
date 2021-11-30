@@ -1,0 +1,29 @@
+.upperContainer{
+    height: 80vh;
+    background-color:#212529;
+    
+    
+    
+}
+.textWe{
+    color: wheat;
+    margin-top: 25%;
+}
+.textW{
+    color:white;
+}
+
+.buttonD{
+    color: aliceblue;
+    font-size: medium;
+    text-decoration: none;
+}
+.buttonD:hover{
+color:aliceblue
+}
+
+.img-my{
+    width:300px;
+    height: auto;
+    margin-top: 15%;
+}

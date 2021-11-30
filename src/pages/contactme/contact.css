@@ -1,0 +1,17 @@
+.full-container{
+    height: 80vh;
+    background-color: #b5b0b8;
+}
+.pro-text{
+    background-color: #b5b0b8;
+    
+}
+.up-con{
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
+}
+.low-con{
+    margin-top: 10%;
+    align-items: center;
+}
