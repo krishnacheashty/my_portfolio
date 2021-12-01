@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div  className="firstProjects text-white ">
             <Row>
                 <Col sx={12}md={6}>
-                    <div style={{marginTop:'40%'}}><h3> HI, I AM KRISHNA</h3></div>
+                    <div style={{marginTop:'30%',color:'#F5DEB2',marginLeft:'30px'}}><h3> HI, I AM KRISHNA</h3></div>
                     <div>
                         <ul>
                             <h6 style={{textAlign:'start'}}>

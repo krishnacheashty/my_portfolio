@@ -7,9 +7,9 @@ import img from '../../images/divider1.png'
 const Contact = () => {
     return (
         <Container className="pro-text ">
-            <div >
+            <div style={{textAlign:'center'}}>
                 <h3 className="text-center text-dark pt-5">CONTACT ME</h3>
-                <div><img src={img} alt="" /></div>
+                <img src={img} alt="" />
             </div>
             <Row className="full-container">
                 <Col sm={12}md={6}>

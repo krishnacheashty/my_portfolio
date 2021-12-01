@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { Container } from 'react-bootstrap';
+import Navtop from '../navbar/Navtop';
 
 const Result=()=>{
     return(
@@ -26,6 +27,7 @@ const [result,setResult]=useState(false)
       },5000)
     return (
         <Container>
+          <Navtop/>
           <form  onSubmit={sendEmail}>
               <div className="w-100 my-3">
                   <div className='col-8 pt-2  form-group mx-auto'>
@@ -45,7 +47,7 @@ const [result,setResult]=useState(false)
                     <input type="text" placeholder='massage'cols="30" row="8" className=' mt-2 from-control w-75' name="massage" />
                   </div>
                   <div>
-                    <input type="submit" value="Send massage" className="btn btn-primary my-4 px-5"/>
+                    <input type="submit" value="Send massage" className="btn btn-primary my-4" style={{marginLeft:'40%'}}/>
                   </div>
                   <div>{result ? <Result/> : null}</div>
                   

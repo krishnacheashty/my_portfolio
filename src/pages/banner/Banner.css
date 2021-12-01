@@ -1,9 +1,17 @@
 .upperContainer{
     height: 80vh;
-    background-color:#212529;
     
     
     
+    
+}
+.back{
+    background-image: url(../../images/icon-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(
+        135deg,#208379 -10%,#051514 50%);
 }
 .textWe{
     color: wheat;
