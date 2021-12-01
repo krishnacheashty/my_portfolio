@@ -6,10 +6,10 @@ import img from '../../images/divider1.png'
 
 const Contact = () => {
     return (
-        <Container className="pro-text">
-            <div className="">
-            <h3 className="text-center text-dark pt-5">CONTACT ME</h3>
-            <div><img src={img} alt="" /></div>
+        <Container className="pro-text ">
+            <div >
+                <h3 className="text-center text-dark pt-5">CONTACT ME</h3>
+                <div><img src={img} alt="" /></div>
             </div>
             <Row className="full-container">
                 <Col sm={12}md={6}>

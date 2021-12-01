@@ -2,9 +2,12 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import './Banner.css'
 import img from '../../images/my-bg.png'
+import img1 from '../../images/icon-bg.jpg'
+
 const Banner = () => {
   return (
-    <Container>
+    <Container className="back">
+      
     <Row>
       <Col sm={12}md={6} className="upperContainer">
           <img src={img} className="img-my" alt="" />

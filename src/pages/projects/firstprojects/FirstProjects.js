@@ -5,11 +5,12 @@ import {
   MDBCol,
   MDBContainer
 } from "mdbreact";
+import './firstProjects.css'
 
 const FirstProjects = () => {
     return (
-        <div >
-            <Row >
+        <div className="firstProjects" >
+            <Row>
                 <Col sx={12} md={6}>
                     <MDBContainer>
                         <MDBRow>

@@ -1,9 +1,9 @@
 .full-container{
     height: 80vh;
-    background-color: #b5b0b8;
+    background-color:  rgb(109, 133, 156);
 }
 .pro-text{
-    background-color: #b5b0b8;
+    background-color:  rgb(109, 133, 156);
     
 }
 .up-con{
@@ -12,6 +12,6 @@
     height: 100%;
 }
 .low-con{
-    margin-top: 10%;
+    
     align-items: center;
 }

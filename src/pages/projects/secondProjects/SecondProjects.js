@@ -8,7 +8,8 @@ import {
 
 const SecondProjects = () => {
     return (
-        <Row className='my-5 py-5'>
+        <div className="firstProjects" >
+            <Row className='mb-5 py-5 '>
                 <Col sx={12} md={6}>
                     <div className='my-5'> <h3>Projects Detail</h3> </div>
                         <div>
@@ -57,6 +58,7 @@ const SecondProjects = () => {
                     </MDBContainer>
                 </Col>
             </Row>
+        </div>
     );
 };
 

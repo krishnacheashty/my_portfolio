@@ -8,11 +8,12 @@ import {
 
 const ThirdProjects = () => {
     return (
-            <Row>
+            <div className="firstProjects">
+                <Row  >
                 <Col sx={12} md={6}>
                     <MDBContainer>
                         <MDBRow>
-                            <MDBCol md="12" className="mb-3">
+                            <MDBCol md="12" className="mb-3 doit">
                             <img src="https://i.ibb.co/HhkQCpS/travel1.png" className="img-fluid z-depth-1" alt="" />
                             </MDBCol>
                             </MDBRow>
@@ -58,6 +59,7 @@ const ThirdProjects = () => {
                 
                 </Col>
             </Row>
+            </div>
     );
 };
 

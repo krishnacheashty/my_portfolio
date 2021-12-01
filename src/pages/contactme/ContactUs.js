@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { Container } from 'react-bootstrap';
 
 const Result=()=>{
     return(
@@ -24,9 +25,9 @@ const [result,setResult]=useState(false)
           setResult(false)
       },5000)
     return (
-        <div className="h-75">
+        <Container>
           <form  onSubmit={sendEmail}>
-              <div className="w-100">
+              <div className="w-100 my-3">
                   <div className='col-8 pt-2  form-group mx-auto'>
                       <label>Name : </label>
                     <input type="text" placeholder='name'className='w-75 mx-2 ' name="name" />
@@ -39,9 +40,9 @@ const [result,setResult]=useState(false)
                     <label>Subject : </label>
                     <input type="text" placeholder='name'className='from-control w-75 mx-2 ' name="subject" />
                   </div>
-                  <div className='col-8 pt-5  mt-3 form-group mx-auto mx-2 '>
+                  <div className='col-8 pt-2  mt-3 form-group mx-auto mx-2 '>
                     <label>Massage : </label>
-                    <input type="text" placeholder='massage'cols="30" row="8" className=' mt-3 mx-2 from-control w-75' name="massage" />
+                    <input type="text" placeholder='massage'cols="30" row="8" className=' mt-2 from-control w-75' name="massage" />
                   </div>
                   <div>
                     <input type="submit" value="Send massage" className="btn btn-primary my-4 px-5"/>
@@ -52,7 +53,7 @@ const [result,setResult]=useState(false)
             
             
             </form>
-      </div>
+      </Container>
     );
 };
 
