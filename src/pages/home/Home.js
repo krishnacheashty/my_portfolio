@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import AboutMe from '../aboutMe/AboutMe';
 import Banner from '../banner/Banner';
 import Contact from '../contactme/Contact';
 import Navtop from "../navbar/Navtop";
@@ -11,6 +12,7 @@ const Home = () => {
         <Container>
             <Navtop></Navtop>
             <Banner></Banner>
+            <AboutMe/>
             <Projects></Projects>
             <Contact></Contact>
         </Container>

@@ -39,7 +39,7 @@ const [result,setResult]=useState(false)
                     <label>Subject : </label>
                     <input type="text" placeholder='name'className='from-control w-75 mx-2 ' name="subject" />
                   </div>
-                  <div className='col-8 pt-2  mt-3 form-group mx-auto mx-2 '>
+                  <div className='col-8 pt-5  mt-3 form-group mx-auto mx-2 '>
                     <label>Massage : </label>
                     <input type="text" placeholder='massage'cols="30" row="8" className=' mt-3 mx-2 from-control w-75' name="massage" />
                   </div>

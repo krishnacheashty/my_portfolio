@@ -7,8 +7,8 @@ import img from '../../images/divider1.png'
 const Contact = () => {
     return (
         <Container className="pro-text">
-            <div className="pt-5">
-            <h3 className="text-center text-dark">CONTACT ME</h3>
+            <div className="">
+            <h3 className="text-center text-dark pt-5">CONTACT ME</h3>
             <div><img src={img} alt="" /></div>
             </div>
             <Row className="full-container">
@@ -23,7 +23,7 @@ const Contact = () => {
                         frameBorder={0}
                         marginHeight={0}
                         marginWidth={0}
-                        style={{ filter: "opacity(0.7)" }}
+                        style={{ filter: "opacity(0.7)", }}
                         src="https://www.google.com/maps/embed/v1/place?q=97+warren+st+new+york+city&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                     />
                     
