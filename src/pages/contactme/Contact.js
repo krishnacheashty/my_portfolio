@@ -3,10 +3,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './contact.css'
 import ContactUs from './ContactUs';
 import img from '../../images/divider1.png'
+import Navtop from '../navbar/Navtop';
 
 const Contact = () => {
     return (
         <Container className="pro-text ">
+             <Navtop/>
             <div style={{textAlign:'center'}}>
                 <h3 className="text-center text-dark pt-5">CONTACT ME</h3>
                 <img src={img} alt="" />
