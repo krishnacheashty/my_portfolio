@@ -8,8 +8,8 @@ import img from '../../images/divider1.png'
 const Projects = () => {
     return (
         <div className="firstProjects">
-            <div style={{textAlign:'center' ,marginBottom:'20px'}}>
-                <h2 className="my-2"> MY PROJECTS </h2>
+            <div style={{textAlign:'center' ,marginBottom:'20px',padding:'20px 0 20px 0'}}>
+                <h2 className="pt-5"> MY PROJECTS </h2>
                 <div><img src={img} alt="" /></div>
             </div>
             <FirstProjects ></FirstProjects>
